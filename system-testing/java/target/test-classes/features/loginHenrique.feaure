@@ -1,0 +1,10 @@
+Feature: Login Siga
+
+  Background:
+    Given user would like to log in application
+
+    Scenario: User Invalid Login and Password
+      Given user informs login with value equal "1284639425SP"
+      And user informs password with value equal "75694123285"
+      When User clicks on Confirmar button
+      Then user should see fail page with "Não confere Login e Senha" messagee
