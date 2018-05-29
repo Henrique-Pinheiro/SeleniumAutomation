@@ -4,7 +4,7 @@ Feature: Login Siga
     Given user would like to log in Siga application
 
     Scenario: User Invalid Login and Password
-      Given user informs sigalogin with value equal "1284639425SP"
-      And user informs sigapassword with value equal "75694123285"
+      Given user informs Usuário with value equal "1284639425SP"
+        And user informs Senha with value equal "756941285"
       When User clicks on Confirmar button
-      Then user should see fail page with "Não confere Login e Senha" messagee
+      Then user should see fail message with "Não confere Login e Senha"
