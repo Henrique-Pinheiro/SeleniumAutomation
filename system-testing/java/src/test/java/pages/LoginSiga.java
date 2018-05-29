@@ -28,6 +28,6 @@ public class LoginSiga {
     }
 
     public  String checkMessage() {
-        return driver.getText("gxErrorViewer");
+        return driver.getText("//*[@id=\"gxErrorViewer\"]/div", "xpath");
     }
 }
