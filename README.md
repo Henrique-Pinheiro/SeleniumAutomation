@@ -1,2 +1,2 @@
-# SeleniumAutomation
-Selenium Repository (Ruby and Java |Gherkin|)
+# Selenium Automation
+POC - Java with BDD(Cucumber/Gherkin)
