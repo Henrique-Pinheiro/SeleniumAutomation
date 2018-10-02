@@ -12,11 +12,65 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginSigaPT.feature" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginSigaPT.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/LoginSigaPT.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="-314">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#93#158#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PTSigaSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/PTSigaSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginSiga.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginSiga.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeSiga.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomeSiga.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#598#599#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,7 +96,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>wait</find>
+      <find>.toLowerCase()</find>
     </findStrings>
+    <replaceStrings>
+      <replace>.toLowerCase()</replace>
+    </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -52,10 +110,12 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/HomeSiga.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/loginHenrique.feature" />
         <option value="$PROJECT_DIR$/src/test/java/support/BaseSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LoginSiga.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/LoginSigaSteps.java" />
         <option value="$PROJECT_DIR$/cucumber/api/java/pt/annotations.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PTSigaSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/LoginSigaPT.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/PTSigaSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginSiga.java" />
       </list>
     </option>
   </component>
@@ -70,7 +130,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -81,7 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -147,6 +207,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="skeleton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -168,7 +236,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -196,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: User valid Login and password">
+  <component name="RunManager" selected="Cucumber java.Scenario: Acessando a aplicação com Usuário e Senha cadastrados">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -222,10 +290,10 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Scenario: User Invalid Login and Password (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="skeleton" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^User Invalid Login and Password$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Acessando a aplicação com Usuário e Senha cadastrados$&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -294,19 +362,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: User Invalid Login and Password (1)" />
       <item itemvalue="Cucumber java.Feature: loginHenrique (1)" />
       <item itemvalue="Cucumber java.Scenario: User Invalid Login and Password" />
       <item itemvalue="Cucumber java.Feature: loginHenrique (2)" />
       <item itemvalue="Cucumber java.Scenario: User valid Login and password" />
+      <item itemvalue="Cucumber java.Scenario: Acessando a aplicação com Usuário e Senha cadastrados" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Scenario: Acessando a aplicação com Usuário e Senha cadastrados" />
         <item itemvalue="Cucumber java.Scenario: User valid Login and password" />
         <item itemvalue="Cucumber java.Feature: loginHenrique (2)" />
         <item itemvalue="Cucumber java.Scenario: User Invalid Login and Password" />
         <item itemvalue="Cucumber java.Feature: loginHenrique (1)" />
-        <item itemvalue="Cucumber java.Scenario: User Invalid Login and Password (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -324,35 +392,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__User_valid_Login_and_password_(2) - 2018.06.02 at 14h 43m 25s.xml">
-      <configuration name="Scenario: User valid Login and password (2)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__loginHenrique - 2018.06.02 at 14h 46m 59s.xml">
-      <configuration name="Feature: loginHenrique" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_Invalid_Login_and_Password_(1) - 2018.09.02 at 22h 37m 20s.xml">
-      <configuration name="Scenario: User Invalid Login and Password (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__loginHenrique_(1) - 2018.09.02 at 22h 43m 33s.xml">
-      <configuration name="Feature: loginHenrique (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_Invalid_Login_and_Password - 2018.10.01 at 23h 22m 27s.xml">
-      <configuration name="Scenario: User Invalid Login and Password" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_Invalid_Login_and_Password - 2018.10.01 at 23h 25m 55s.xml">
-      <configuration name="Scenario: User Invalid Login and Password" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__User_Invalid_Login_and_Password - 2018.10.01 at 23h 28m 08s.xml">
-      <configuration name="Scenario: User Invalid Login and Password" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__loginHenrique_(2) - 2018.10.01 at 23h 30m 41s.xml">
-      <configuration name="Feature: loginHenrique (2)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__loginHenrique_(2) - 2018.10.01 at 23h 32m 30s.xml">
       <configuration name="Feature: loginHenrique (2)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__User_valid_Login_and_password - 2018.10.01 at 23h 34m 48s.xml">
       <configuration name="Scenario: User valid Login and password" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Acessando_a_aplicação_com_Usuário_e_Senha_cadastrados - 2018.10.02 at 14h 17m 03s.xml">
+      <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Acessando_a_aplicação_com_Usuário_e_Senha_cadastrados - 2018.10.02 at 14h 19m 36s.xml">
+      <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Acessando_a_aplicação_com_Usuário_e_Senha_cadastrados - 2018.10.02 at 14h 24m 03s.xml">
+      <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Acessando_a_aplicação_com_Usuário_e_Senha_cadastrados - 2018.10.02 at 14h 27m 02s.xml">
+      <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Acessando_a_aplicação_com_Usuário_e_Senha_cadastrados - 2018.10.02 at 14h 32m 14s.xml">
+      <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Acessando_a_aplicação_com_Usuário_e_Senha_cadastrados - 2018.10.02 at 14h 34m 05s.xml">
+      <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Acessando_a_aplicação_com_Usuário_e_Senha_cadastrados - 2018.10.02 at 14h 35m 49s.xml">
+      <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Acessando_a_aplicação_com_Usuário_e_Senha_cadastrados - 2018.10.02 at 14h 36m 54s.xml">
+      <configuration name="Scenario: Acessando a aplicação com Usuário e Senha cadastrados" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -365,35 +433,35 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4433551" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4438944" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.15346535" />
-      <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.31013617" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2217484" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978212" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -401,18 +469,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/LoginSigaPT.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="e#93#158#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/loginHenrique.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSigaSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
           </folding>
@@ -435,14 +518,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/loginHenrique.feature" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSigaSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
           </folding>
@@ -490,6 +571,7 @@
         <state relative-caret-position="1173">
           <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
           </folding>
@@ -537,6 +619,7 @@
         <state relative-caret-position="1020">
           <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#570#571#0" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
           </folding>
@@ -655,23 +738,10 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/Login.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/loginHenrique.feaure" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.6.0/selenium-api-3.6.0.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunnerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -704,10 +774,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber/api/java/en/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cucumber/api/java/pt/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runner/RunnerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/loginHenrique.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="54" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSigaSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomeSiga.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="320">
+          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
@@ -724,57 +841,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/LoginSigaSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="46" column="59" selection-start-line="46" selection-start-column="59" selection-end-line="46" selection-end-column="59" />
-          <folding>
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginSiga.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="-17">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
             <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber/api/java/en/annotations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cucumber/api/java/pt/annotations.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/loginHenrique.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/LoginSigaPT.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="-314">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#93#158#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/PTSigaSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="61" column="30" lean-forward="true" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,6 +5,7 @@ import support.DriverQA;
 public class LoginSiga {
 
     private DriverQA driver;
+    private final String sigaUrl = "https://siga.cps.sp.gov.br/aluno/login.aspx?";
 
     public LoginSiga(DriverQA stepDriver){
         driver = stepDriver;
@@ -23,8 +24,7 @@ public class LoginSiga {
     }
 
     public  void openSiga(){
-        String url = "https://siga.cps.sp.gov.br/aluno/login.aspx?";
-        driver.openURL(url);
+        driver.openURL(sigaUrl);
     }
 
     public  String checkMessage() {
