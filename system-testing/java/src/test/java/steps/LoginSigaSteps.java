@@ -35,7 +35,6 @@ public class LoginSigaSteps extends BaseSteps {
     @When("^User clicks on Confirmar button$")
     public void userClicksOnConfirmarButton() throws Throwable {
         login.clickContinuar();
-        Thread.sleep(3600);
     }
 
     @Then("^user should see fail message with \"([^\"]*)\"$")
@@ -45,8 +44,8 @@ public class LoginSigaSteps extends BaseSteps {
 
     @Then("^user should see the Siga home page$")
     public void userShouldSeeTheSigaHomePage() throws Throwable {
+        driver.waitElement("span_MPW0039vPRO_PESSOALNOME");
         Assert.assertEquals("https://siga.cps.sp.gov.br/aluno/home.aspx", home.homeAcess());
-        Thread.sleep(3600);
     }
 
     @And("^user should see his name with value equal \"([^\"]*)\"$")
